@@ -25,7 +25,9 @@ I won't lie, reading through these next few sources drove me a little crazy at f
 
 Sometimes you need more than just dry technical manuals. Here are some of the best reads and visual guides that made this journey much more wonderful and intuitive:
 
-* **[GPIO Programming Guide](insert_link_here):** A fantastic resource that helped visualize and lock in my understanding of General Purpose I/O on the STM32.
+* **[GPIO Programming Guide](https://embetronicx.com/tutorials/tech_devices/understanding-the-microcontroller-gpio-gpio-working-explained/):** A fantastic resource that helped visualize and lock in my understanding of General Purpose I/O on the STM32.
+
+* **[Guide: Connecting your debugger](https://stm32-base.org/guides/connecting-your-debugger.html):** Before you can flash code, you have to figure out how to actually talk to the board. This guide is a lifesaver—it breaks down the exact pinouts and physical connection details for pretty much every type of ST-Link clone and original debugger out there.
 
 *(I'll be updating this list with more resources as I find them!)*
 
