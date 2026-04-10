@@ -5147,3 +5147,12 @@ com.sun.jna.platform.win32.Win32Exception: The system cannot find the file speci
 
 !ENTRY org.eclipse.cdt.core 1 0 2026-04-10 14:00:16.670
 !MESSAGE Indexed '2_PushButton_Onboard' (19 sources, 115 headers) in 1.04 sec: 10,244 declarations; 36,357 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-04-10 14:03:42.819
+!MESSAGE Indexed '2_PushButton_Onboard' (19 sources, 115 headers) in 1.1 sec: 10,251 declarations; 36,463 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2026-04-10 14:16:42.443
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 14 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2026-04-10 14:16:42.444
+!MESSAGE Existing sessions are:

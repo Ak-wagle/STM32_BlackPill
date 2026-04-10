@@ -146,3 +146,70 @@ Finished building: default.size.stdout
  
 Finished building: 2_PushButton_Onboard.list
  
+14:07:10 **** Incremental Build of configuration Debug for project 2_PushButton_Onboard ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:97:39: error: 'GPIO_Pin_0' undeclared (first use in this function); did you mean 'GPIO_PIN_0'?
+   97 |           if (HAL_GPIO_ReadPin(GPIOA, GPIO_Pin_0) == GPIO_PIN_SET) {
+      |                                       ^~~~~~~~~~
+      |                                       GPIO_PIN_0
+../Core/Src/main.c:97:39: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:07:34 **** Incremental Build of configuration Debug for project 2_PushButton_Onboard ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "2_PushButton_Onboard.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\aniru\STM32CubeIDE\STM32_BlackPill\2_PushButton_Onboard\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2_PushButton_Onboard.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2_PushButton_Onboard.elf
+ 
+arm-none-eabi-size  2_PushButton_Onboard.elf 
+arm-none-eabi-objdump -h -S 2_PushButton_Onboard.elf  > "2_PushButton_Onboard.list"
+   text	   data	    bss	    dec	    hex	filename
+   5836	     12	   1572	   7420	   1cfc	2_PushButton_Onboard.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2_PushButton_Onboard.list
+ 
+14:16:12 **** Incremental Build of configuration Debug for project 2_PushButton_Onboard ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "2_PushButton_Onboard.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\aniru\STM32CubeIDE\STM32_BlackPill\2_PushButton_Onboard\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2_PushButton_Onboard.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2_PushButton_Onboard.elf
+ 
+arm-none-eabi-size  2_PushButton_Onboard.elf 
+arm-none-eabi-objdump -h -S 2_PushButton_Onboard.elf  > "2_PushButton_Onboard.list"
+   text	   data	    bss	    dec	    hex	filename
+   5756	     12	   1572	   7340	   1cac	2_PushButton_Onboard.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2_PushButton_Onboard.list
+ 
+14:16:33 **** Incremental Build of configuration Debug for project 2_PushButton_Onboard ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "2_PushButton_Onboard.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\aniru\STM32CubeIDE\STM32_BlackPill\2_PushButton_Onboard\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2_PushButton_Onboard.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2_PushButton_Onboard.elf
+ 
+arm-none-eabi-size  2_PushButton_Onboard.elf 
+arm-none-eabi-objdump -h -S 2_PushButton_Onboard.elf  > "2_PushButton_Onboard.list"
+   text	   data	    bss	    dec	    hex	filename
+   5756	     12	   1572	   7340	   1cac	2_PushButton_Onboard.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2_PushButton_Onboard.list
+ 
+14:17:00 **** Incremental Build of configuration Debug for project 2_PushButton_Onboard ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "2_PushButton_Onboard.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\aniru\STM32CubeIDE\STM32_BlackPill\2_PushButton_Onboard\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2_PushButton_Onboard.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2_PushButton_Onboard.elf
+ 
+arm-none-eabi-size  2_PushButton_Onboard.elf 
+arm-none-eabi-objdump -h -S 2_PushButton_Onboard.elf  > "2_PushButton_Onboard.list"
+   text	   data	    bss	    dec	    hex	filename
+   5836	     12	   1572	   7420	   1cfc	2_PushButton_Onboard.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2_PushButton_Onboard.list
+ 

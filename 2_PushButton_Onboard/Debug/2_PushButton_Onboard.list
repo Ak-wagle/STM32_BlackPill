@@ -399,11 +399,11 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
  8000510:	f000 f878 	bl	8000604 <MX_GPIO_Init>
-
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  /* Kepp the PA0 GPIO in Pull UP */
 	  if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0) == GPIO_PIN_SET) {
  8000514:	2101      	movs	r1, #1
  8000516:	480a      	ldr	r0, [pc, #40]	@ (8000540 <main+0x3c>)
