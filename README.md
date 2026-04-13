@@ -29,6 +29,8 @@ Sometimes you need more than just dry technical manuals. Here are some of the be
 
 * **[Guide: Connecting your debugger](https://stm32-base.org/guides/connecting-your-debugger.html):** Before you can flash code, you have to figure out how to actually talk to the board. This guide is a lifesaver—it breaks down the exact pinouts and physical connection details for pretty much every type of ST-Link clone and original debugger out there.
 
+* **[The Black Pill (STM32F411CEU6) Deep Dive](https://alotbah.com/posts/BlackPill-STM32F411CEU6/):** A comprehensive guide that goes beyond the basics. It covers project structure, GPIO, timers, PWM, ADC, USB communication, and more—making it a great resource for both understanding concepts and practical STM32 development.
+
 *(I'll be updating this list with more resources as I find them!)*
 
 ---
