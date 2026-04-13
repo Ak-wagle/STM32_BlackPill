@@ -5197,3 +5197,12 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2026-04-13 11:55:09.344
 !MESSAGE Indexed '1_LED_Blink_Onboard' (19 sources, 81 headers) in 1.76 sec: 4,321 declarations; 18,321 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0088%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-04-13 12:14:16.481
+!MESSAGE Indexed '3_EXTI_PushButton' (38 sources, 155 headers) in 2.31 sec: 12,687 declarations; 50,981 references; 5 unresolved inclusions; 254 syntax errors; 1,050 unresolved names (1.6%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-04-13 12:25:12.635
+!MESSAGE Indexed '3_EXTI_PushButton' (19 sources, 115 headers) in 1.33 sec: 10,257 declarations; 36,506 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-04-13 12:27:11.490
+!MESSAGE Indexed '3_EXTI_PushButton' (19 sources, 115 headers) in 1.13 sec: 10,257 declarations; 36,504 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)

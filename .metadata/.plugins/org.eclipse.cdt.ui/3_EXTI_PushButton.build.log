@@ -1,0 +1,10 @@
+12:27:36 **** Incremental Build of configuration Debug for project 3_EXTI_PushButton ****
+make -j16 all 
+arm-none-eabi-size  3_EXTI_PushButton.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6000	     12	   1572	   7584	   1da0	3_EXTI_PushButton.elf
+Finished building: default.size.stdout
+ 
+
+12:27:36 Build Finished. 0 errors, 0 warnings. (took 193ms)
+
